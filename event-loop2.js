@@ -17,3 +17,11 @@ function printA() {
 
 printA();
 console.log("Last line of the code");
+
+// a=100
+// Last line of the code
+// process.nextTick
+// Promise Resolved
+// Timer expired
+// setImmediate
+// File reading completed

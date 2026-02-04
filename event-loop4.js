@@ -4,7 +4,7 @@ setImmediate(() => console.log("Immediate"));
 
 setTimeout(() => console.log("Timer Expired"), 0);
 
-Promise.resolve("Resolve").then(() => console.log);
+Promise.resolve("Resolve").then(() => console.log("Resolved"));
 
 fs.readFile("./file.txt", "utf8", () => {
   console.log("File is completed");
@@ -16,3 +16,11 @@ process.nextTick(() => {
 });
 
 console.log("Last line of the code");
+
+//Last line of the code
+//nextTick
+//inner nextTick
+//Resolve
+//Timer Expired
+//Immediate
+//File is completed

@@ -14,8 +14,8 @@ function printA() {
 printA();
 console.log("Last line of the code");
 
-// a=100
-// Last line of the code
-// Timer expired
-// setImmediate
-// File reading completed
+//a=100
+//Last line of the code
+//Timer expired
+//setImmediate
+//File reading completed

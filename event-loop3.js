@@ -1,15 +1,3 @@
-/**
- * Last line of the file.
- * nextTick
- * Promise
- * Timer expired
- * setImmediate
- * File Reading CB
- * 2nd nextTick
- * 2nd setImmediate
- * 2nd timer
- */
-
 const fs = require("fs");
 
 setImmediate(() => console.log("setImmediate"));
@@ -30,3 +18,13 @@ fs.readFile("./file.txt", "utf8", () => {
 process.nextTick(() => console.log("nextTick"));
 
 console.log("Last line of the file.");
+
+// Last line of the file.
+// nextTick
+// Promise
+// Timer expired
+// setImmediate
+// File Reading CB
+// 2nd nextTick
+// 2nd setImmediate
+// 2nd timer
