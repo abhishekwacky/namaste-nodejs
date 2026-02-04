@@ -25,6 +25,6 @@ console.log("Last line of the file.");
 // Timer expired
 // setImmediate
 // File Reading CB
-// 2nd nextTick
-// 2nd setImmediate
+// 2nd nextTick - event loop started from poll phase
+// 2nd setImmediate - event loop started running from the poll phase so this line gets executed first
 // 2nd timer
