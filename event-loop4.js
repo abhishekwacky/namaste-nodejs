@@ -19,7 +19,7 @@ console.log("Last line of the code");
 
 //Last line of the code
 //nextTick
-//inner nextTick
+//inner nextTick - event loop will move to the phases only when all the nextTick() gets executed
 //Resolve
 //Timer Expired
 //Immediate
